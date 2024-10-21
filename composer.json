@@ -1,0 +1,32 @@
+{
+    "name": "sqlexception/module-magento2-base",
+    "version": "1.0.0",
+    "description": "Magento 2 base module",
+    "type": "magento2-module",
+    "require": {
+        "php": ">=7.4",
+        "ext-redis": "*",
+        "ext-json": "*",
+        "ext-xmlreader": "*",
+        "magento/framework": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5 || ^10.0"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "SqlException\\Base\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SqlException\\Base\\Test\\": "src/Test/"
+        }
+    }
+}

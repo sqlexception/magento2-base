@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG version="1.2" creation="1570807937" channel="cuchrist3" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SUPPLIER>
+        <NAME>ONE: CHRIST Juweliere</NAME>
+    </SUPPLIER>
+    <CLASSIFICATION>
+        <TAGS>
+            <TAG>
+                <ID>15</ID>
+                <NAME>Altersgruppe</NAME>
+                <VALUES>
+                    <VALUE>
+                        <ID>1</ID>
+                        <NAME>t_adult</NAME>
+                    </VALUE>
+                    <VALUE>
+                        <ID>3</ID>
+                        <NAME>t_kid</NAME>
+                    </VALUE>
+                    <VALUE>
+                        <ID>4031139</ID>
+                        <NAME>t_teen</NAME>
+                    </VALUE>
+                </VALUES>
+            </TAG>
+            <TAG>
+                <ID>100059</ID>
+                <KEY>ZUB</KEY>
+                <NAME>Zubehör</NAME>
+                <VALUES>
+                    <VALUE>
+                        <ID>5363647</ID>
+                        <KEY>ANL</KEY>
+                        <NAME>ANL_Anleitung</NAME>
+                    </VALUE>
+                    <VALUE>
+                        <ID>5363651</ID>
+                        <KEY>COSC</KEY>
+                        <NAME>COSC_Chronometer-Zertifikat</NAME>
+                    </VALUE>
+                    <VALUE>
+                        <ID>5363641</ID>
+                        <KEY>DEX</KEY>
+                        <NAME>DEX_Diamant-Expertise</NAME>
+                    </VALUE>
+                    <VALUE>
+                        <ID>5363645</ID>
+                        <KEY>GAR</KEY>
+                        <NAME>GAR_Garantiekarte</NAME>
+                    </VALUE>
+                    <VALUE>
+                        <ID>5363649</ID>
+                        <KEY>VPK</KEY>
+                        <NAME>VPK_Verpackung</NAME>
+                    </VALUE>
+                    <VALUE>
+                        <ID>5363643</ID>
+                        <KEY>ZER</KEY>
+                        <NAME>ZER_Zertifikat</NAME>
+                    </VALUE>
+                </VALUES>
+            </TAG>
+            <TAG>
+                <ID>100051</ID>
+                <KEY>ZOE</KEY>
+                <NAME>Zwischenöse</NAME>
+                <VALUES>
+                    <VALUE>
+                        <ID>5363577</ID>
+                        <KEY>JN_001</KEY>
+                        <NAME>ja</NAME>
+                    </VALUE>
+                    <VALUE>
+                        <ID>5363579</ID>
+                        <KEY>JN_002</KEY>
+                        <NAME>nein</NAME>
+                    </VALUE>
+                </VALUES>
+            </TAG>
+        </TAGS>
+        <COMPONENTS>
+            <COMPONENT>
+                <ID>13</ID>
+                <NAME>AddonDescription</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>30987</ID>
+                <KEY>AKK</KEY>
+                <NAME>Akkukapazität</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>30773</ID>
+                <KEY>ABR</KEY>
+                <NAME>Anhänger Breite in cm</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>30771</ID>
+                <KEY>ALN</KEY>
+                <NAME>Anhänger Länge in cm</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>15</ID>
+                <NAME>Anhängerbreite</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>17</ID>
+                <NAME>Anhängerfarbe</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>19</ID>
+                <NAME>Anhängerlänge</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>31019</ID>
+                <KEY>BIL2</KEY>
+                <NAME>Anwendungsbilder</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>21</ID>
+                <NAME>Anzahl Steinpositionen</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>30789</ID>
+                <KEY>ASP</KEY>
+                <NAME>Anzahl Steinpositionen</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>30727</ID>
+                <KEY>MITMAS_ITDS</KEY>
+                <NAME>Artikelbeschreibung</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>30725</ID>
+                <KEY>MITMAS_FUDS</KEY>
+                <NAME>Artikelbezeichnung</NAME>
+            </COMPONENT>
+            <COMPONENT>
+                <ID>31017</ID>
+                <KEY>BIL</KEY>
+                <NAME>Artikelbilder</NAME>
+            </COMPONENT>
+        </COMPONENTS>
+    </CLASSIFICATION>
+    <PRODUCTDATA type="full">
+        <!-- delta request control: 0 -->
+        <PRODUCT>
+            <P_NR>9</P_NR>
+            <P_NR_EXTERNAL>32000626</P_NR_EXTERNAL>
+            <P_CHANGEDATE type="unix_timestamp">1570494942</P_CHANGEDATE>
+            <P_CREATEDATE type="unix_timestamp">1556551894</P_CREATEDATE>
+            <P_ACTIVEDATA>
+                <P_ACTIVE channel="cuchrist3">1</P_ACTIVE>
+            </P_ACTIVEDATA>
+            <P_NAME>
+                <VALUE xml:lang="x-default">Michael Kors Damen-Ohrstecker 925er Silber</VALUE>
+            </P_NAME>
+            <P_TEXT>
+                <VALUE xml:lang="x-default">Ohrstecker 925er Silber rhodiniert, Verschluss: Ohrstecker Breite ca. 0,635 cm</VALUE>
+            </P_TEXT>
+            <P_BRAND identifier="id" key="81" name="Michael Kors"/>
+            <P_KEYWORDS>
+                <P_KEYWORD>
+                    <VALUE xml:lang="x-default">Damen-schmuck Damen-Ohrring Silber Ohrringe Michael Kors Custom Kors | Ohrstecker Damen 925er Silber Michael Kors Ohrstecker MKC1033AN040</VALUE>
+                </P_KEYWORD>
+            </P_KEYWORDS>
+            <P_COMPONENTDATA>
+                <P_COMPONENT identifier="id" key="30789">
+                    <VALUE xml:lang="x-default">1</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="30753">
+                    <VALUE xml:lang="x-default">0.64 cm</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="41">
+                    <VALUE xml:lang="x-default">1 g</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="53">
+                    <VALUE xml:lang="x-default">925er Silber</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="59">
+                    <VALUE xml:lang="x-default">Custom Kors | Ohrstecker</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="63">
+                    <VALUE xml:lang="x-default">Michael Kors</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="67">
+                    <VALUE xml:lang="x-default">Silber</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="65">
+                    <VALUE xml:lang="x-default">Breite ca. 0,635 cm</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="31001">
+                    <VALUE xml:lang="x-default">NOS</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="141">
+                    <VALUE xml:lang="x-default">Ohrstecker</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="30717">
+                    <VALUE xml:lang="x-default">Ohrschmuck</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="30705">
+                    <VALUE xml:lang="x-default">Schmuck</VALUE>
+                </P_COMPONENT>
+            </P_COMPONENTDATA>
+            <P_TAGS>
+                <P_TAG identifier='id' key='11' name='Geschlecht'>
+                    <VALUES>
+                        <VALUE identifier="id" key="7">t_damen</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='15' name='Altersgruppe'>
+                    <VALUES>
+                        <VALUE identifier="id" key="1">t_adult</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='23' name='Geschenkverpackung'>
+                    <VALUES>
+                        <VALUE identifier="id" key="5">t_ja</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='25' name='Optik'>
+                    <VALUES>
+                        <VALUE identifier="id" key="17">t_glaenzend</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='27' name='platinumkeywords'>
+                    <VALUES>
+                        <VALUE identifier="id" key="25">t_damenschmuck</VALUE>
+                        <VALUE identifier="id" key="27">t_ohrstecker</VALUE>
+                        <VALUE identifier="id" key="41">t_ohrringe_silber</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='35' name='Season'>
+                    <VALUES>
+                        <VALUE identifier="id" key="165">t_nos</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='37' name='Stilrichtung'>
+                    <VALUES>
+                        <VALUE identifier="id" key="169">t_trendig</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='76707' name='Kollektionsjahr'>
+                    <VALUES>
+                        <VALUE identifier="id" key="4028335">t_2018</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='76709' name='Warenbereich'>
+                    <VALUES>
+                        <VALUE identifier="id" key="4028513">t_michaelkors</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='76711' name='Warengruppe'>
+                    <VALUES>
+                        <VALUE identifier="id" key="4028747">t_ohrstecker</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='76713' name='Warenhauptgruppe'>
+                    <VALUES>
+                        <VALUE identifier="id" key="4029003">t_ohrringe</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='76717' name='Warenlinie'>
+                    <VALUES>
+                        <VALUE identifier="id" key="4029049">t_schmuck</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='100049' name='Verschluss'>
+                    <VALUES>
+                        <VALUE identifier="id" key="5363555">VER_004</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='100003' name='Material 1'>
+                    <VALUES>
+                        <VALUE identifier="id" key="5362573">MAT_020</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='100405' name='Stilrichtung'>
+                    <VALUES>
+                        <VALUE identifier="id" key="5369625">STIL_003</VALUE>
+                    </VALUES>
+                </P_TAG>
+            </P_TAGS>
+            <P_BULLETS>
+                <P_BULLET sort="10">
+                    <VALUE xml:lang="x-default">Material: Silber</VALUE>
+                </P_BULLET>
+                <P_BULLET sort="20">
+                    <VALUE xml:lang="x-default">Farbe: silber</VALUE>
+                </P_BULLET>
+                <P_BULLET sort="30">
+                    <VALUE xml:lang="x-default">Maßangaben: Breite ca. 0,635 cm</VALUE>
+                </P_BULLET>
+                <P_BULLET sort="40">
+                    <VALUE xml:lang="x-default">Wir liefern Ihr Schmuckstück in einer eleganten Produktverpackung - ideal für Geschenke</VALUE>
+                </P_BULLET>
+                <P_BULLET sort="50">
+                    <VALUE xml:lang="x-default">Profitieren Sie vom CHRIST Uhren- &amp; Schmuckservice sowie der Fachexpertise aus mehr als 200 Filialen in Deutschland</VALUE>
+                </P_BULLET>
+            </P_BULLETS>
+            <P_CATEGORIES>
+                <P_CATEGORY type="valmano_nav" identifier="id" key="20623">20623</P_CATEGORY>
+            </P_CATEGORIES>
+            <P_VARIANTFIELDS>
+                <P_VARIANTFIELD identifier="id" key="129">Size</P_VARIANTFIELD>
+                <P_VARIANTFIELD identifier="id" key="159">Style Farbe</P_VARIANTFIELD>
+            </P_VARIANTFIELDS>
+            <ARTICLEDATA>
+                <ARTICLE>
+                    <A_NR>87546179</A_NR>
+                    <A_ID>1059</A_ID>
+                    <A_CHANGEDATE type="unix_timestamp">1570272746</A_CHANGEDATE>
+                    <A_CREATEDATE type="unix_timestamp">1556552423</A_CREATEDATE>
+                    <A_ACTIVE>1</A_ACTIVE>
+                    <A_EAN>4013496009040</A_EAN>
+                    <A_PROD_NR>MKC1033AN040</A_PROD_NR>
+                    <A_VARIANTDATA>
+                        <A_VARIANT identifier="id" key="129">
+                            <VALUE xml:lang="x-default">One Size</VALUE>
+                        </A_VARIANT>
+                        <A_VARIANT identifier="id" key="159">
+                            <VALUE xml:lang="x-default">silber</VALUE>
+                        </A_VARIANT>
+                    </A_VARIANTDATA>
+                    <A_COMPONENTDATA>
+                        <A_COMPONENT identifier="id" key="1">
+                            <VALUE xml:lang="x-default">silber</VALUE>
+                        </A_COMPONENT>
+                        <A_COMPONENT identifier="id" key="69">
+                            <VALUE xml:lang="x-default">rhodiniert</VALUE>
+                        </A_COMPONENT>
+                    </A_COMPONENTDATA>
+                    <A_TAGS>
+                        <A_TAG identifier='id' key='100459' name='Farbe'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5370583">FAR_88_M</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                        <A_TAG identifier='id' key='100015' name='Oberflächenveredelung 1'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5362885">OED_30</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                    </A_TAGS>
+                    <A_PRICEDATA>
+                        <A_PRICE channel="cuchrist3" currency="EUR">
+                            <A_VK>68.53</A_VK>
+                            <A_VK_OLD>89.00</A_VK_OLD>
+                            <A_UVP>89.00</A_UVP>
+                            <A_MWST>2</A_MWST>
+                            <A_EK>0.00</A_EK>
+                        </A_PRICE>
+                    </A_PRICEDATA>
+                    <A_MEDIADATA>
+                        <A_MEDIA type="image" sort="10002010" origname="michael-kors-ohrstecker-mkc1033an040_87546179.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/10/355411.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10004010" origname="michael-kors-ohrstecker-mkc1033an040_87546179.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/14/355415.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10007070" origname="michael-kors-ohrstecker-mkc1033an040_87546179.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/2/28/921229.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10008010" origname="michael-kors-ohrstecker-mkc1033an040_87546179.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/12/355413.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10016040" origname="michael-kors-ohrstecker-mkc1033an040_87546179_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/8/40/490841.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10017100" origname="michael-kors-ohrstecker-mkc1033an040_87546179_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/7/90/972791.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10022040" origname="michael-kors-ohrstecker-mkc1033an040_87546179_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/8/42/490843.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10023040" origname="michael-kors-ohrstecker-mkc1033an040_87546179_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/8/44/490845.jpg</A_MEDIA>
+                    </A_MEDIADATA>
+                    <A_UNIT>ST</A_UNIT>
+                    <A_STOCK>10</A_STOCK>
+                    <A_DELIVERY_TIME>2</A_DELIVERY_TIME>
+                    <A_REPLACEMENT>0</A_REPLACEMENT>
+                    <A_REPLACEMENT_TIME>0</A_REPLACEMENT_TIME>
+                    <A_ORDER_MIN>0</A_ORDER_MIN>
+                    <A_ORDER_MAX>0</A_ORDER_MAX>
+                    <A_ORDER_INTERVAL>0</A_ORDER_INTERVAL>
+                    <A_PARCEL>
+                        <A_PIECES>1</A_PIECES>
+                        <A_WIDTH>13</A_WIDTH>
+                        <A_HEIGHT>4</A_HEIGHT>
+                        <A_LENGTH>25</A_LENGTH>
+                        <A_WEIGHT>1</A_WEIGHT>
+                    </A_PARCEL>
+                </ARTICLE>
+                <ARTICLE>
+                    <A_NR>87546187</A_NR>
+                    <A_ID>1061</A_ID>
+                    <A_CHANGEDATE type="unix_timestamp">1570520247</A_CHANGEDATE>
+                    <A_CREATEDATE type="unix_timestamp">1556552423</A_CREATEDATE>
+                    <A_ACTIVE>1</A_ACTIVE>
+                    <A_EAN>4013496006605</A_EAN>
+                    <A_PROD_NR>MKC1033AN710</A_PROD_NR>
+                    <A_VARIANTDATA>
+                        <A_VARIANT identifier="id" key="129">
+                            <VALUE xml:lang="x-default">One Size</VALUE>
+                        </A_VARIANT>
+                        <A_VARIANT identifier="id" key="159">
+                            <VALUE xml:lang="x-default">gold</VALUE>
+                        </A_VARIANT>
+                    </A_VARIANTDATA>
+                    <A_COMPONENTDATA>
+                        <A_COMPONENT identifier="id" key="1">
+                            <VALUE xml:lang="x-default">gold</VALUE>
+                        </A_COMPONENT>
+                        <A_COMPONENT identifier="id" key="69">
+                            <VALUE xml:lang="x-default">IP-Gold</VALUE>
+                        </A_COMPONENT>
+                    </A_COMPONENTDATA>
+                    <A_TAGS>
+                        <A_TAG identifier='id' key='100459' name='Farbe'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5370567">FAR_79_M</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                        <A_TAG identifier='id' key='100015' name='Oberflächenveredelung 1'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5362931">OED_62</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                    </A_TAGS>
+                    <A_PRICEDATA>
+                        <A_PRICE channel="cuchrist3" currency="EUR">
+                            <A_VK>66.47</A_VK>
+                            <A_VK_OLD>89.00</A_VK_OLD>
+                            <A_UVP>89.00</A_UVP>
+                            <A_MWST>2</A_MWST>
+                            <A_EK>0.00</A_EK>
+                        </A_PRICE>
+                    </A_PRICEDATA>
+                    <A_MEDIADATA>
+                        <A_MEDIA type="image" sort="10000020" origname="michael-kors-ohrstecker-mkc1033an710_87546187.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/16/355417.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10005020" origname="michael-kors-ohrstecker-mkc1033an710_87546187.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/20/355421.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10006020" origname="michael-kors-ohrstecker-mkc1033an710_87546187.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/18/355419.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10010080" origname="michael-kors-ohrstecker-mkc1033an710_87546187.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/2/30/921231.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10012110" origname="michael-kors-ohrstecker-mkc1033an710_87546187_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/7/92/972793.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10015050" origname="michael-kors-ohrstecker-mkc1033an710_87546187_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/8/48/490849.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10019050" origname="michael-kors-ohrstecker-mkc1033an710_87546187_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/8/46/490847.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10020050" origname="michael-kors-ohrstecker-mkc1033an710_87546187_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/8/50/490851.jpg</A_MEDIA>
+                    </A_MEDIADATA>
+                    <A_UNIT>ST</A_UNIT>
+                    <A_STOCK>20</A_STOCK>
+                    <A_DELIVERY_TIME>2</A_DELIVERY_TIME>
+                    <A_REPLACEMENT>0</A_REPLACEMENT>
+                    <A_REPLACEMENT_TIME>0</A_REPLACEMENT_TIME>
+                    <A_ORDER_MIN>0</A_ORDER_MIN>
+                    <A_ORDER_MAX>0</A_ORDER_MAX>
+                    <A_ORDER_INTERVAL>0</A_ORDER_INTERVAL>
+                    <A_PARCEL>
+                        <A_PIECES>1</A_PIECES>
+                        <A_WIDTH>13</A_WIDTH>
+                        <A_HEIGHT>4</A_HEIGHT>
+                        <A_LENGTH>25</A_LENGTH>
+                        <A_WEIGHT>1</A_WEIGHT>
+                    </A_PARCEL>
+                </ARTICLE>
+                <ARTICLE>
+                    <A_NR>87546195</A_NR>
+                    <A_ID>1063</A_ID>
+                    <A_CHANGEDATE type="unix_timestamp">1569656118</A_CHANGEDATE>
+                    <A_CREATEDATE type="unix_timestamp">1556552423</A_CREATEDATE>
+                    <A_ACTIVE>1</A_ACTIVE>
+                    <A_EAN>4013496009057</A_EAN>
+                    <A_PROD_NR>MKC1033AN791</A_PROD_NR>
+                    <A_VARIANTDATA>
+                        <A_VARIANT identifier="id" key="129">
+                            <VALUE xml:lang="x-default">One Size</VALUE>
+                        </A_VARIANT>
+                        <A_VARIANT identifier="id" key="159">
+                            <VALUE xml:lang="x-default">rosé</VALUE>
+                        </A_VARIANT>
+                    </A_VARIANTDATA>
+                    <A_COMPONENTDATA>
+                        <A_COMPONENT identifier="id" key="1">
+                            <VALUE xml:lang="x-default">rosé</VALUE>
+                        </A_COMPONENT>
+                        <A_COMPONENT identifier="id" key="69">
+                            <VALUE xml:lang="x-default">IP-Rosé</VALUE>
+                        </A_COMPONENT>
+                    </A_COMPONENTDATA>
+                    <A_TAGS>
+                        <A_TAG identifier='id' key='100459' name='Farbe'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5370579">FAR_30_M</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                        <A_TAG identifier='id' key='100015' name='Oberflächenveredelung 1'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5362929">OED_61</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                    </A_TAGS>
+                    <A_PRICEDATA>
+                        <A_PRICE channel="cuchrist3" currency="EUR">
+                            <A_VK>68.53</A_VK>
+                            <A_VK_OLD>89.00</A_VK_OLD>
+                            <A_UVP>89.00</A_UVP>
+                            <A_MWST>2</A_MWST>
+                            <A_EK>0.00</A_EK>
+                        </A_PRICE>
+                    </A_PRICEDATA>
+                    <A_MEDIADATA>
+                        <A_MEDIA type="image" sort="10001030" origname="michael-kors-ohrstecker-mkc1033an791_87546195.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/26/355427.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10003030" origname="michael-kors-ohrstecker-mkc1033an791_87546195.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/24/355425.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10009030" origname="michael-kors-ohrstecker-mkc1033an791_87546195.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/22/355423.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10011090" origname="michael-kors-ohrstecker-mkc1033an791_87546195.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/2/32/921233.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10013120" origname="michael-kors-ohrstecker-mkc1033an791_87546195_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/7/94/972795.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10014060" origname="michael-kors-ohrstecker-mkc1033an791_87546195_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/8/56/490857.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10018060" origname="michael-kors-ohrstecker-mkc1033an791_87546195_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/8/54/490855.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10021060" origname="michael-kors-ohrstecker-mkc1033an791_87546195_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/8/52/490853.jpg</A_MEDIA>
+                    </A_MEDIADATA>
+                    <A_UNIT>ST</A_UNIT>
+                    <A_STOCK>15</A_STOCK>
+                    <A_DELIVERY_TIME>2</A_DELIVERY_TIME>
+                    <A_REPLACEMENT>0</A_REPLACEMENT>
+                    <A_REPLACEMENT_TIME>0</A_REPLACEMENT_TIME>
+                    <A_ORDER_MIN>0</A_ORDER_MIN>
+                    <A_ORDER_MAX>0</A_ORDER_MAX>
+                    <A_ORDER_INTERVAL>0</A_ORDER_INTERVAL>
+                    <A_PARCEL>
+                        <A_PIECES>1</A_PIECES>
+                        <A_WIDTH>13</A_WIDTH>
+                        <A_HEIGHT>4</A_HEIGHT>
+                        <A_LENGTH>25</A_LENGTH>
+                        <A_WEIGHT>1</A_WEIGHT>
+                    </A_PARCEL>
+                </ARTICLE>
+            </ARTICLEDATA>
+        </PRODUCT>
+        <PRODUCT>
+            <P_NR>33</P_NR>
+            <P_NR_EXTERNAL>32000985</P_NR_EXTERNAL>
+            <P_CHANGEDATE type="unix_timestamp">1570494975</P_CHANGEDATE>
+            <P_CREATEDATE type="unix_timestamp">1556551894</P_CREATEDATE>
+            <P_ACTIVEDATA>
+                <P_ACTIVE channel="cuchrist3">1</P_ACTIVE>
+            </P_ACTIVEDATA>
+            <P_NAME>
+                <VALUE xml:lang="x-default">Michael Kors Damen-Armband 925er Silber</VALUE>
+            </P_NAME>
+            <P_TEXT>
+                <VALUE xml:lang="x-default">Armband ohne Element 925er Silber rhodiniert, Verschluss: Sliding Länge ca. 20 cm, Breite ca. 0,3 cm</VALUE>
+            </P_TEXT>
+            <P_BRAND identifier="id" key="81" name="Michael Kors"/>
+            <P_KEYWORDS>
+                <P_KEYWORD>
+                    <VALUE xml:lang="x-default">Damen-schmuck Damen-Armband Silber Armbänder Michael Kors Custom Kors | Armband ohne Element Damen 925er Silber Michael Kors Armband ohne Element MKC104391710</VALUE>
+                </P_KEYWORD>
+            </P_KEYWORDS>
+            <P_COMPONENTDATA>
+                <P_COMPONENT identifier="id" key="30753">
+                    <VALUE xml:lang="x-default">0.3 cm</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="41">
+                    <VALUE xml:lang="x-default">5.4 g</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="53">
+                    <VALUE xml:lang="x-default">925er Silber</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="59">
+                    <VALUE xml:lang="x-default">Custom Kors | Armband ohne Element</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="5">
+                    <VALUE xml:lang="x-default">20 cm</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="63">
+                    <VALUE xml:lang="x-default">Michael Kors</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="67">
+                    <VALUE xml:lang="x-default">Silber</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="65">
+                    <VALUE xml:lang="x-default">Länge ca. 20 cm, Breite ca. 0,3 cm</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="31001">
+                    <VALUE xml:lang="x-default">NOS</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="141">
+                    <VALUE xml:lang="x-default">Sliding</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="30717">
+                    <VALUE xml:lang="x-default">Armschmuck</VALUE>
+                </P_COMPONENT>
+                <P_COMPONENT identifier="id" key="30705">
+                    <VALUE xml:lang="x-default">Schmuck</VALUE>
+                </P_COMPONENT>
+            </P_COMPONENTDATA>
+            <P_TAGS>
+                <P_TAG identifier='id' key='11' name='Geschlecht'>
+                    <VALUES>
+                        <VALUE identifier="id" key="7">t_damen</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='15' name='Altersgruppe'>
+                    <VALUES>
+                        <VALUE identifier="id" key="1">t_adult</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='23' name='Geschenkverpackung'>
+                    <VALUES>
+                        <VALUE identifier="id" key="5">t_ja</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='25' name='Optik'>
+                    <VALUES>
+                        <VALUE identifier="id" key="17">t_glaenzend</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='27' name='platinumkeywords'>
+                    <VALUES>
+                        <VALUE identifier="id" key="25">t_damenschmuck</VALUE>
+                        <VALUE identifier="id" key="47">t_damenarmband</VALUE>
+                        <VALUE identifier="id" key="87">t_armband_silber</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='35' name='Season'>
+                    <VALUES>
+                        <VALUE identifier="id" key="165">t_nos</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='37' name='Stilrichtung'>
+                    <VALUES>
+                        <VALUE identifier="id" key="169">t_trendig</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='76707' name='Kollektionsjahr'>
+                    <VALUES>
+                        <VALUE identifier="id" key="4028335">t_2018</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='76709' name='Warenbereich'>
+                    <VALUES>
+                        <VALUE identifier="id" key="4028513">t_michaelkors</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='76711' name='Warengruppe'>
+                    <VALUES>
+                        <VALUE identifier="id" key="4028739">t_armband</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='76713' name='Warenhauptgruppe'>
+                    <VALUES>
+                        <VALUE identifier="id" key="4028995">t_armbaender</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='76717' name='Warenlinie'>
+                    <VALUES>
+                        <VALUE identifier="id" key="4029049">t_schmuck</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='100049' name='Verschluss'>
+                    <VALUES>
+                        <VALUE identifier="id" key="5363563">VER_008</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='100003' name='Material 1'>
+                    <VALUES>
+                        <VALUE identifier="id" key="5362573">MAT_020</VALUE>
+                    </VALUES>
+                </P_TAG>
+                <P_TAG identifier='id' key='100405' name='Stilrichtung'>
+                    <VALUES>
+                        <VALUE identifier="id" key="5369625">STIL_003</VALUE>
+                    </VALUES>
+                </P_TAG>
+            </P_TAGS>
+            <P_BULLETS>
+                <P_BULLET sort="10">
+                    <VALUE xml:lang="x-default">Material: Silber</VALUE>
+                </P_BULLET>
+                <P_BULLET sort="20">
+                    <VALUE xml:lang="x-default">Farbe: grün</VALUE>
+                </P_BULLET>
+                <P_BULLET sort="30">
+                    <VALUE xml:lang="x-default">Maßangaben: Länge ca. 20 cm, Breite ca. 0,3 cm</VALUE>
+                </P_BULLET>
+                <P_BULLET sort="40">
+                    <VALUE xml:lang="x-default">Wir liefern Ihr Schmuckstück in einer eleganten Produktverpackung - ideal für Geschenke</VALUE>
+                </P_BULLET>
+                <P_BULLET sort="50">
+                    <VALUE xml:lang="x-default">Profitieren Sie vom CHRIST Uhren- &amp; Schmuckservice sowie der Fachexpertise aus mehr als 200 Filialen in Deutschland</VALUE>
+                </P_BULLET>
+            </P_BULLETS>
+            <P_CATEGORIES>
+                <P_CATEGORY type="valmano_nav" identifier="id" key="20623">20623</P_CATEGORY>
+            </P_CATEGORIES>
+            <P_VARIANTFIELDS>
+                <P_VARIANTFIELD identifier="id" key="129">Size</P_VARIANTFIELD>
+                <P_VARIANTFIELD identifier="id" key="159">Style Farbe</P_VARIANTFIELD>
+            </P_VARIANTFIELDS>
+            <ARTICLEDATA>
+                <ARTICLE>
+                    <A_NR>87546381</A_NR>
+                    <A_ID>4721</A_ID>
+                    <A_CHANGEDATE type="unix_timestamp">1568845530</A_CHANGEDATE>
+                    <A_CREATEDATE type="unix_timestamp">1556552445</A_CREATEDATE>
+                    <A_ACTIVE>1</A_ACTIVE>
+                    <A_EAN>4053858922938</A_EAN>
+                    <A_PROD_NR>MKC104391710</A_PROD_NR>
+                    <A_VARIANTDATA>
+                        <A_VARIANT identifier="id" key="129">
+                            <VALUE xml:lang="x-default">One Size</VALUE>
+                        </A_VARIANT>
+                        <A_VARIANT identifier="id" key="159">
+                            <VALUE xml:lang="x-default">grün</VALUE>
+                        </A_VARIANT>
+                    </A_VARIANTDATA>
+                    <A_COMPONENTDATA>
+                        <A_COMPONENT identifier="id" key="1">
+                            <VALUE xml:lang="x-default">grün</VALUE>
+                        </A_COMPONENT>
+                        <A_COMPONENT identifier="id" key="69">
+                            <VALUE xml:lang="x-default">rhodiniert</VALUE>
+                        </A_COMPONENT>
+                    </A_COMPONENTDATA>
+                    <A_TAGS>
+                        <A_TAG identifier='id' key='100459' name='Farbe'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5370571">FAR_54_M</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                        <A_TAG identifier='id' key='100015' name='Oberflächenveredelung 1'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5362885">OED_30</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                    </A_TAGS>
+                    <A_PRICEDATA>
+                        <A_PRICE channel="cuchrist3" currency="EUR">
+                            <A_VK>61.73</A_VK>
+                            <A_VK_OLD>89.00</A_VK_OLD>
+                            <A_UVP>89.00</A_UVP>
+                            <A_MWST>2</A_MWST>
+                            <A_EK>0.00</A_EK>
+                        </A_PRICE>
+                    </A_PRICEDATA>
+                    <A_MEDIADATA>
+                        <A_MEDIA type="image" sort="10001010" origname="michael-kors-armband-ohne-element-mkc104391710_87546381.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/0/46/366047.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10005010" origname="michael-kors-armband-ohne-element-mkc104391710_87546381.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/0/44/366045.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10006010" origname="michael-kors-armband-ohne-element-mkc104391710_87546381.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/0/42/366043.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10011100" origname="michael-kors-armband-ohne-element-mkc104391710_87546381.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/1/80/923181.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10012040" origname="michael-kors-armband-ohne-element-mkc104391710_87546381_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/3/08/498309.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10013130" origname="michael-kors-armband-ohne-element-mkc104391710_87546381_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/2/06/974207.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10019040" origname="michael-kors-armband-ohne-element-mkc104391710_87546381_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/3/06/498307.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10023040" origname="michael-kors-armband-ohne-element-mkc104391710_87546381_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/3/04/498305.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10026070" origname="michael-kors-armband-ohne-element-mkc104391710_87546381_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/44/583445.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10028070" origname="michael-kors-armband-ohne-element-mkc104391710_87546381_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/42/583443.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10033160" origname="michael-kors-armband-ohne-element-mkc104391710_87546381_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/52/1006453.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10035070" origname="michael-kors-armband-ohne-element-mkc104391710_87546381_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/46/583447.jpg</A_MEDIA>
+                    </A_MEDIADATA>
+                    <A_UNIT>ST</A_UNIT>
+                    <A_STOCK>5</A_STOCK>
+                    <A_DELIVERY_TIME>2</A_DELIVERY_TIME>
+                    <A_REPLACEMENT>0</A_REPLACEMENT>
+                    <A_REPLACEMENT_TIME>0</A_REPLACEMENT_TIME>
+                    <A_ORDER_MIN>0</A_ORDER_MIN>
+                    <A_ORDER_MAX>0</A_ORDER_MAX>
+                    <A_ORDER_INTERVAL>0</A_ORDER_INTERVAL>
+                    <A_PARCEL>
+                        <A_PIECES>1</A_PIECES>
+                        <A_WIDTH>13</A_WIDTH>
+                        <A_HEIGHT>4</A_HEIGHT>
+                        <A_LENGTH>25</A_LENGTH>
+                        <A_WEIGHT>1</A_WEIGHT>
+                    </A_PARCEL>
+                </ARTICLE>
+                <ARTICLE>
+                    <A_NR>87546403</A_NR>
+                    <A_ID>4723</A_ID>
+                    <A_CHANGEDATE type="unix_timestamp">1568845530</A_CHANGEDATE>
+                    <A_CREATEDATE type="unix_timestamp">1556552445</A_CREATEDATE>
+                    <A_ACTIVE>1</A_ACTIVE>
+                    <A_EAN>4053858922952</A_EAN>
+                    <A_PROD_NR>MKC104393040</A_PROD_NR>
+                    <A_VARIANTDATA>
+                        <A_VARIANT identifier="id" key="129">
+                            <VALUE xml:lang="x-default">One Size</VALUE>
+                        </A_VARIANT>
+                        <A_VARIANT identifier="id" key="159">
+                            <VALUE xml:lang="x-default">blau</VALUE>
+                        </A_VARIANT>
+                    </A_VARIANTDATA>
+                    <A_COMPONENTDATA>
+                        <A_COMPONENT identifier="id" key="1">
+                            <VALUE xml:lang="x-default">blau</VALUE>
+                        </A_COMPONENT>
+                        <A_COMPONENT identifier="id" key="69">
+                            <VALUE xml:lang="x-default">rhodiniert</VALUE>
+                        </A_COMPONENT>
+                    </A_COMPONENTDATA>
+                    <A_TAGS>
+                        <A_TAG identifier='id' key='100459' name='Farbe'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5370561">FAR_53_M</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                        <A_TAG identifier='id' key='100015' name='Oberflächenveredelung 1'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5362885">OED_30</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                    </A_TAGS>
+                    <A_PRICEDATA>
+                        <A_PRICE channel="cuchrist3" currency="EUR">
+                            <A_VK>61.73</A_VK>
+                            <A_VK_OLD>89.00</A_VK_OLD>
+                            <A_UVP>89.00</A_UVP>
+                            <A_MWST>2</A_MWST>
+                            <A_EK>0.00</A_EK>
+                        </A_PRICE>
+                    </A_PRICEDATA>
+                    <A_MEDIADATA>
+                        <A_MEDIA type="image" sort="10000020" origname="michael-kors-armband-ohne-element-mkc104393040_87546403.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/0/52/366053.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10002110" origname="michael-kors-armband-ohne-element-mkc104393040_87546403.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/1/82/923183.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10007020" origname="michael-kors-armband-ohne-element-mkc104393040_87546403.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/0/48/366049.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10010020" origname="michael-kors-armband-ohne-element-mkc104393040_87546403.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/0/50/366051.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10014140" origname="michael-kors-armband-ohne-element-mkc104393040_87546403_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/2/08/974209.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10015050" origname="michael-kors-armband-ohne-element-mkc104393040_87546403_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/3/14/498315.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10018050" origname="michael-kors-armband-ohne-element-mkc104393040_87546403_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/3/10/498311.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10020050" origname="michael-kors-armband-ohne-element-mkc104393040_87546403_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/3/12/498313.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10024080" origname="michael-kors-armband-ohne-element-mkc104393040_87546403_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/50/583451.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10030080" origname="michael-kors-armband-ohne-element-mkc104393040_87546403_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/52/583453.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10031080" origname="michael-kors-armband-ohne-element-mkc104393040_87546403_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/48/583449.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10034170" origname="michael-kors-armband-ohne-element-mkc104393040_87546403_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/54/1006455.jpg</A_MEDIA>
+                    </A_MEDIADATA>
+                    <A_UNIT>ST</A_UNIT>
+                    <A_STOCK>3</A_STOCK>
+                    <A_DELIVERY_TIME>2</A_DELIVERY_TIME>
+                    <A_REPLACEMENT>0</A_REPLACEMENT>
+                    <A_REPLACEMENT_TIME>0</A_REPLACEMENT_TIME>
+                    <A_ORDER_MIN>0</A_ORDER_MIN>
+                    <A_ORDER_MAX>0</A_ORDER_MAX>
+                    <A_ORDER_INTERVAL>0</A_ORDER_INTERVAL>
+                    <A_PARCEL>
+                        <A_PIECES>1</A_PIECES>
+                        <A_WIDTH>13</A_WIDTH>
+                        <A_HEIGHT>4</A_HEIGHT>
+                        <A_LENGTH>25</A_LENGTH>
+                        <A_WEIGHT>1</A_WEIGHT>
+                    </A_PARCEL>
+                </ARTICLE>
+                <ARTICLE>
+                    <A_NR>87546411</A_NR>
+                    <A_ID>4725</A_ID>
+                    <A_CHANGEDATE type="unix_timestamp">1568845530</A_CHANGEDATE>
+                    <A_CREATEDATE type="unix_timestamp">1556552445</A_CREATEDATE>
+                    <A_ACTIVE>1</A_ACTIVE>
+                    <A_EAN>4053858922945</A_EAN>
+                    <A_PROD_NR>MKC104395791</A_PROD_NR>
+                    <A_VARIANTDATA>
+                        <A_VARIANT identifier="id" key="129">
+                            <VALUE xml:lang="x-default">One Size</VALUE>
+                        </A_VARIANT>
+                        <A_VARIANT identifier="id" key="159">
+                            <VALUE xml:lang="x-default">lila</VALUE>
+                        </A_VARIANT>
+                    </A_VARIANTDATA>
+                    <A_COMPONENTDATA>
+                        <A_COMPONENT identifier="id" key="1">
+                            <VALUE xml:lang="x-default">lila</VALUE>
+                        </A_COMPONENT>
+                        <A_COMPONENT identifier="id" key="69">
+                            <VALUE xml:lang="x-default">IP-Rosé</VALUE>
+                        </A_COMPONENT>
+                    </A_COMPONENTDATA>
+                    <A_TAGS>
+                        <A_TAG identifier='id' key='100459' name='Farbe'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5370573">FAR_82_M</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                        <A_TAG identifier='id' key='100015' name='Oberflächenveredelung 1'>
+                            <VALUES>
+                                <VALUE identifier="id" key="5362929">OED_61</VALUE>
+                            </VALUES>
+                        </A_TAG>
+                    </A_TAGS>
+                    <A_PRICEDATA>
+                        <A_PRICE channel="cuchrist3" currency="EUR">
+                            <A_VK>61.73</A_VK>
+                            <A_VK_OLD>89.00</A_VK_OLD>
+                            <A_UVP>89.00</A_UVP>
+                            <A_MWST>2</A_MWST>
+                            <A_EK>0.00</A_EK>
+                        </A_PRICE>
+                    </A_PRICEDATA>
+                    <A_MEDIADATA>
+                        <A_MEDIA type="image" sort="10003030" origname="michael-kors-armband-ohne-element-mkc104395791_87546411.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/0/58/366059.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10004030" origname="michael-kors-armband-ohne-element-mkc104395791_87546411.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/0/54/366055.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10008030" origname="michael-kors-armband-ohne-element-mkc104395791_87546411.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/0/56/366057.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10009120" origname="michael-kors-armband-ohne-element-mkc104395791_87546411.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/1/84/923185.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10016150" origname="michael-kors-armband-ohne-element-mkc104395791_87546411_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/2/10/974211.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10017060" origname="michael-kors-armband-ohne-element-mkc104395791_87546411_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/3/20/498321.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10021060" origname="michael-kors-armband-ohne-element-mkc104395791_87546411_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/3/16/498317.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10022060" origname="michael-kors-armband-ohne-element-mkc104395791_87546411_1.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/3/18/498319.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10025090" origname="michael-kors-armband-ohne-element-mkc104395791_87546411_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/56/583457.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10027090" origname="michael-kors-armband-ohne-element-mkc104395791_87546411_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/54/583455.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10029090" origname="michael-kors-armband-ohne-element-mkc104395791_87546411_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/58/583459.jpg</A_MEDIA>
+                        <A_MEDIA type="image" sort="10032180" origname="michael-kors-armband-ohne-element-mkc104395791_87546411_3.jpg">https://clientmediastaging.tradebyte.com/2234_christ/media/4/56/1006457.jpg</A_MEDIA>
+                    </A_MEDIADATA>
+                    <A_UNIT>ST</A_UNIT>
+                    <A_STOCK>4</A_STOCK>
+                    <A_DELIVERY_TIME>2</A_DELIVERY_TIME>
+                    <A_REPLACEMENT>0</A_REPLACEMENT>
+                    <A_REPLACEMENT_TIME>0</A_REPLACEMENT_TIME>
+                    <A_ORDER_MIN>0</A_ORDER_MIN>
+                    <A_ORDER_MAX>0</A_ORDER_MAX>
+                    <A_ORDER_INTERVAL>0</A_ORDER_INTERVAL>
+                    <A_PARCEL>
+                        <A_PIECES>1</A_PIECES>
+                        <A_WIDTH>13</A_WIDTH>
+                        <A_HEIGHT>4</A_HEIGHT>
+                        <A_LENGTH>25</A_LENGTH>
+                        <A_WEIGHT>1</A_WEIGHT>
+                    </A_PARCEL>
+                </ARTICLE>
+            </ARTICLEDATA>
+        </PRODUCT>
+    </PRODUCTDATA>
+</CATALOG>
