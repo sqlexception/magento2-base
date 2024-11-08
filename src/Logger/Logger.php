@@ -6,7 +6,7 @@ use Magento\Framework\Exception\InvalidArgumentException;
 use Magento\Framework\Phrase;
 use Psr\Log\LoggerInterface;
 use Magento\Framework\App\Filesystem\DirectoryList;
-use Magento\Framework\Filesystem\DriverInterface;
+use Magento\Framework\Filesystem\Driver\File;
 use Magento\Framework\Exception\FileSystemException;
 use SqlException\Base\Config\BaseConfig;
 
@@ -26,7 +26,7 @@ class Logger implements LoggerInterface
     private $directoryList;
 
     /**
-     * @var DriverInterface
+     * @var File
      */
     private $fileDriver;
 
@@ -79,13 +79,13 @@ class Logger implements LoggerInterface
      * Constructor
      *
      * @param BaseConfig $config
-     * @param DriverInterface $fileDriver
+     * @param File $fileDriver
      * @param DirectoryList $directoryList
      * @param string $configPrefix
      */
     public function __construct(
         BaseConfig $config,
-        DriverInterface $fileDriver,
+        File $fileDriver,
         DirectoryList $directoryList,
         string $configPrefix
     ) {
