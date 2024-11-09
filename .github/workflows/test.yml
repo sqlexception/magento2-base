@@ -15,8 +15,15 @@ jobs:
 
     strategy:
       matrix:
-        php-version: ['7.4', '8.0', '8.1', '8.2']
-        magento-version: ['2.4.3', '2.4.5']
+        include:
+          - php-version: '7.4'
+            magento-version: '2.4.3'
+          - php-version: '8.0'
+            magento-version: '2.4.4'
+          - php-version: '8.1'
+            magento-version: '2.4.5'
+          - php-version: '8.2'
+            magento-version: '2.4.5'
 
     env:
       COMPOSER_VERSION: 2.1
@@ -36,12 +43,12 @@ jobs:
 
       - name: Get Composer Cache Directory
         id: composer-cache
-        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+        run: echo "COMPOSER_CACHE_DIR=$(composer config cache-files-dir)" >> $GITHUB_ENV
 
       - name: Cache Composer Dependencies
         uses: actions/cache@v2
         with:
-          path: ${{ steps.composer-cache.outputs.dir }}
+          path: ${{ env.COMPOSER_CACHE_DIR }}
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
 
