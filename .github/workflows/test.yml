@@ -59,7 +59,7 @@ jobs:
         run: composer config --no-plugins allow-plugins.magento/composer-dependency-version-audit-plugin true
 
       - name: Install Composer Dependencies
-        run: composer install --prefer-dist --no-progress --no-suggest
+        run: composer install --prefer-dist --no-progress
 
       - name: Configure Magento required packages
         run: |
