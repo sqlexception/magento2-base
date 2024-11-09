@@ -115,6 +115,77 @@ jobs:
 
       - name: Run Unit Tests
         run: |
+          vendor/bin/phpunit -c phpunit.xmlname: Magento 2 Module Unit Tests CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  unit-tests:
+    name: Unit Tests with PHP ${{ matrix.php-version }} and Magento ${{ matrix.magento-version }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        include:
+          - php-version: '7.4'
+            magento-version: '2.4.3'
+          - php-version: '8.0'
+            magento-version: '2.4.4'
+          - php-version: '8.1'
+            magento-version: '2.4.5'
+          - php-version: '8.2'
+            magento-version: '2.4.5'
+
+    env:
+      COMPOSER_VERSION: 2.1
+      COMPOSER_MEMORY_LIMIT: -1  # Remove memory limit
+      magento-root-dir: magento
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          extensions: mbstring, intl, bcmath
+          ini-values: post_max_size=256M, max_execution_time=300
+          coverage: none
+
+      - name: Get Composer Cache Directory
+        id: composer-cache
+        run: |
+          echo "COMPOSER_CACHE_DIR=$(composer config cache-files-dir)" >> $GITHUB_ENV
+
+      - name: Cache Composer Dependencies
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.COMPOSER_CACHE_DIR }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Add Mage-OS Repository
+        run: composer config repositories.mage-os composer https://mirror.mage-os.org/
+
+      - name: Allow Magento Composer Plugin
+        run: composer config --no-plugins allow-plugins.magento/composer-dependency-version-audit-plugin true
+
+      - name: Require Magento Package
+        run: composer require magento/product-community-edition:${{ matrix.magento-version }} --no-update
+
+      - name: Install Composer Dependencies
+        run: |
+          composer update --prefer-dist --no-progress --no-suggest --verbose
+
+      - name: Run Unit Tests
+        run: |
           vendor/bin/phpunit -c phpunit.xml
         with:
           path: ${{ env.COMPOSER_CACHE_DIR }}
