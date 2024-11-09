@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         php-version: ['7.4', '8.0', '8.1', '8.2']
-        magento-version: ['2.4.3', '2.4.4']
+        magento-version: ['2.4.3', '2.4.5']
 
     env:
       COMPOSER_VERSION: 2.1
@@ -31,6 +31,7 @@ jobs:
         with:
           php-version: ${{ matrix.php-version }}
           extensions: mbstring, intl, bcmath
+          ini-values: post_max_size=256M, max_execution_time=300
           coverage: none
 
       - name: Get Composer Cache Directory
@@ -44,10 +45,17 @@ jobs:
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
 
+      - name: Add Mage-OS Repository
+        run: composer config repositories.mage-os composer https://mirror.mage-os.org/
+
       - name: Install Composer Dependencies
         run: composer install --prefer-dist --no-progress --no-suggest
 
+      - name: Configure Magento required packages
+        run: |
+          composer require magento/product-community-edition:${{ matrix.magento-version }} --no-update
+          composer update
+
       - name: Run Unit Tests
         run: |
-          cd ${{ env.magento-root-dir }}
           vendor/bin/phpunit -c phpunit.xml
