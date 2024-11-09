@@ -48,6 +48,9 @@ jobs:
       - name: Add Mage-OS Repository
         run: composer config repositories.mage-os composer https://mirror.mage-os.org/
 
+      - name: Allow Magento Composer Plugin
+        run: composer config --no-plugins allow-plugins.magento/composer-dependency-version-audit-plugin true
+
       - name: Install Composer Dependencies
         run: composer install --prefer-dist --no-progress --no-suggest
 

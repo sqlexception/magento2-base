@@ -28,5 +28,10 @@
         "psr-4": {
             "SqlException\\Base\\Test\\": "src/Test/"
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "magento/composer-dependency-version-audit-plugin": true
+        }
     }
 }
